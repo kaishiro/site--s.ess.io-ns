@@ -36,8 +36,10 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
+activate :directory_indexes
 
+redirect "index.html", :to => "/ns/index.html"
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
