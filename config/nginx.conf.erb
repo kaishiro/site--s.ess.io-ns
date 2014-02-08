@@ -30,6 +30,6 @@ http {
     listen <%= ENV["PORT"] %>;
     server_name _;
     keepalive_timeout 5;
-    root <%= ENV["HOME"] + "/build/ns" %>;
+    root <%= ENV["HOME"] + "/build/" %>;
   }
 }
