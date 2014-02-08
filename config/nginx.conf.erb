@@ -31,7 +31,6 @@ http {
     server_name _;
     keepalive_timeout 5;
     root <%= ENV["HOME"] + "/build/" %>;
-    return 301 http://s.ess.io/ns;
   }
 
 }
