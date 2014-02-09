@@ -39,6 +39,8 @@
 activate :livereload
 activate :directory_indexes
 
+redirect "index.html", :to => "/ns"  
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
