@@ -4,6 +4,8 @@ date: 2014-02-12 19:17 UTC
 location: Tiu Dropar
 category: iceland
 hero: bego-sketch
+caption: Bego's Scribbles @ Tiu Dropar
+captionInvert: 1
 ---
 
 I always endeavor to find at least one place to become a regular at while traveling.  In Iceland, I suppose it's Tiu Dropar.

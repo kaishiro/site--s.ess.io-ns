@@ -4,6 +4,8 @@ date: 2014-02-12 8:46 UTC
 location: Tiu Dropar
 category: iceland
 hero: esja
+caption: Esja @ Shore Walk
+captionInvert: 1
 ---
 
 I'm firmly convinced that you can't know a city until you walk it.  Taxis will always get you where you need to go, but only by walking have I found the places that I can make my own.
