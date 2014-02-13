@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <title>s.ess.io/ns<%= ' | ' + current_article.title unless current_article.nil? %></title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <%= stylesheet_link_tag "all" %>
+    <%= javascript_include_tag "all" %>
+  </head>
+  
+  <body class="body <%= page_classes %>">
+    <header class="header">
+      <h1 class="logo">s<em>.</em>ess<em>.</em>io<em>/</em>ns</h1>
+    </header>
+    <main class="main">
+      <%= yield %>
+      <% blog.articles[0...50].each do |article| %>
+        <article class="article">
+            <header class="article__header">
+              <h2 class="article__title"><%= article.title %></h2>
+            </header>
+            <div class="article__content">
+              <img class="article__hero" src="/images/<%= article.data.category %>/<%= article.data.hero %>.jpg" />
+              <div class="article__meta">
+                <div class="article__location"><%= article.data.location %></div>
+                <div class="article__timestamp">
+                  <%= article.date.strftime('%A, %B %d') %><br />
+                  <%= article.date.strftime('%l:%M %p') %>
+                </div>
+              </div>
+              <div class="article__body">
+                <%= article.body %>
+              </div>
+            </div>
+            <footer class="article__footer">
+            </footer>
+        </article>
+      <% end %>
+    </main>
+    <footer class="footer">
+    </footer>
+  </body>
+</html>
