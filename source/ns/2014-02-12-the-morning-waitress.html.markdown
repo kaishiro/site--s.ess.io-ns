@@ -8,7 +8,7 @@ hero: bego-sketch
 
 I always endeavor to find at least one place to become a regular at while traveling.  In Iceland, I suppose it's Tiu Dropar.
 
-It's small, maybe 25 seats.  Set below street level, it would be east to miss if you weren't looking for it.  I suppose it feels like a small cafe you might find in Paris - at the very least it's adorned as such - but having never been to France I'd be careful to make such a claim.  We happened upon it by chance, and I've spent at least a small part of each day here since.
+It's small, maybe 25 seats.  Set below street level, it would be easy to miss if you weren't looking for it.  I suppose it feels like a small cafe you might find in Paris - at the very least it's adorned as such - but having never been to France I'd be careful to make such a claim.  We happened upon it by chance, and I've spent at least a small part of each day here since.
 
 The morning waitress, Bego (short for Begona, and immediately mistaken for Bagel) is from Spain.  Having been here for the better part of three years, and very anxious to prove it, she was kind enough (one might even say overly excited) to draw me a crude estimation of my walk yesterday.  Apparently, had I continued on past the sign giving Esja its name, I would eventually have ended up at a lighthouse.  As well as being one of Bego's favorite places she typically keeps to herself, occasionally there is a man with a dog outside who will bring you upstairs.
 
