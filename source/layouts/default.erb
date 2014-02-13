@@ -25,7 +25,10 @@
               <h2 class="article__title"><%= article.title %></h2>
             </header>
             <div class="article__content">
-              <img class="article__hero" src="/images/<%= article.data.category %>/<%= article.data.hero %>.jpg" />
+              <figure class="article__hero hero">
+                <img class="hero__image" src="/images/<%= article.data.category %>/<%= article.data.hero %>.jpg" />
+                <figcaption class="hero__caption<% if article.data.captionInvert == 1 %> hero__caption--inverted<% end %>"><%= article.data.caption %></figcaption>
+              </figure>
               <div class="article__meta">
                 <div class="article__location"><%= article.data.location %></div>
                 <div class="article__timestamp">
