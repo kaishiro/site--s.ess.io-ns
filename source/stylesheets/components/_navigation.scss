@@ -20,7 +20,7 @@
     font-size:em(42);
   }
   .article__hero {
-    width:100%;
+    @include clearfix;
     border:5px solid #dddddd;
     margin:em(10) 0;
   }
@@ -41,4 +41,20 @@
   }
 }
 
-
+.hero {
+  position:relative;
+  .hero__image {
+    float:left;
+    width:100%;
+  }
+  .hero__caption {
+    position:absolute;
+    font-size:em(12);
+    color:#666;
+    bottom:5px;
+    right:5px;
+    &.hero__caption--inverted {
+      color:white;
+    }
+  }
+}
