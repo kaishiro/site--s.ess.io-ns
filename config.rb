@@ -32,13 +32,18 @@
 # Helpers
 ###
 
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
+activate :blog do |blog|
+  blog.prefix = "ns"
+  blog.layout = "article"
+  blog.permalink = "{category}/{title}"
+end
 activate :livereload
 activate :directory_indexes
-
 redirect "index.html", :to => "/ns"  
 
 # Methods defined in the helpers block are available in templates
