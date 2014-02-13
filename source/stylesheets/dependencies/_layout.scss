@@ -1,0 +1,17 @@
+$width-tablet:em(750);
+$width-desktop:em(750);
+$max-width:$width-desktop;
+
+$mobile: new-breakpoint(max-width $width-tablet 12);
+$tablet: new-breakpoint(min-width $width-tablet 12);
+$desktop: new-breakpoint(min-width $width-desktop 12);
+
+.header, .main, .footer {
+  @include outer-container;
+  padding-left:5%;
+  padding-right:5%;
+  @include media($desktop) {
+    padding-left:0;
+    padding-right:0;
+  }
+}

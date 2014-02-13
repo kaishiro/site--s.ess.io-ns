@@ -1,0 +1,43 @@
+.body {
+  background:#fefefe;
+  padding-bottom:em(100);
+}
+
+.header {
+  padding:em(50) 0 em(25);
+}
+
+.logo {
+  em {
+    color:#d42c2c;
+  }
+}
+
+.article {
+  margin-bottom:em(50);
+  .article__title {
+    font-size:em(42);
+  }
+  .article__hero {
+    width:100%;
+    border:5px solid #dddddd;
+    margin:em(10) 0;
+  }
+  .article__body {
+    p {
+      margin:1em 0;
+      line-height:golden-ratio(em(16), 1);
+    }
+  }
+  .article__meta {
+    font-size:em(12);
+  }
+  .article__location {
+  }
+  .article__timestamp {
+  }
+  @include media($tablet) {
+  }
+}
+
+
