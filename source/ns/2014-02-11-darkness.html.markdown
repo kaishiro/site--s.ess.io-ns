@@ -8,7 +8,7 @@ caption: Reykjavik Morning @ 9:22AM
 ---
 
 <figure>
-  <img src="/images/iceland/sun-apex.jpg" />
+  <img src="/images/iceland/inline/sun-apex.jpg" />
   <figcaption>"High Noon"</figcaption>
 </figure>
 
