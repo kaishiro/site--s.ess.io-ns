@@ -7,6 +7,11 @@ hero: morning-dark
 caption: Reykjavik Morning @ 9:22AM
 ---
 
+<figure>
+  <img src="/images/iceland/sun-apex.jpg" />
+  <figcaption>"High Noon"</figcaption>
+</figure>
+
 The darkness here really is stifling - or, at least, it would be - if that was the sort of thing to bother you.
 
 I've always tended more towards mornings rather than evenings, and waking up early really is somewhat less rewarding when the earth can't even be bothered to greet you with a sunrise.
