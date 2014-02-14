@@ -15,6 +15,7 @@
 }
 
 .article {
+  @include clearfix;
   margin-bottom:em(50);
   .article__title {
     font-size:em(42);
@@ -28,6 +29,25 @@
     p {
       margin:1em 0;
       line-height:golden-ratio(em(16), 1);
+    }
+    figure {
+      position:relative;
+      float:right;
+      clear:right;
+      width:150px;
+      border:5px solid #dddddd;
+      margin:0 0 em(10) em(20);
+      img {
+        float:left;
+        width:100%;
+      }
+      figcaption {
+        position:absolute;
+        font-size:em(12);
+        color:white;
+        bottom:5px;
+        right:5px;
+      }
     }
   }
   .article__meta {
