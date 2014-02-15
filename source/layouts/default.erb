@@ -8,6 +8,10 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//vjs.zencdn.net/4.2/video.js"></script>
     
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag "all" %>
@@ -26,8 +30,13 @@
             </header>
             <div class="article__content">
               <figure class="article__hero hero">
+              <% if article.data.heroType == "image" %>
                 <img class="hero__image" src="/images/<%= article.data.category %>/hero/<%= article.data.hero %>.jpg" />
                 <figcaption class="hero__caption<% if article.data.captionInvert == 1 %> hero__caption--inverted<% end %>"><%= article.data.caption %></figcaption>
+              <% end %>   
+              <% if article.data.heroType == "video" %>
+                <iframe class="hero__video" src="//player.vimeo.com/video/<%= article.data.hero %>?title=0&amp;byline=0&amp;portrait=0" width="740" height="416" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <% end %>   
               </figure>
               <div class="article__meta">
                 <div class="article__location"><%= article.data.location %></div>
