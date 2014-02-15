@@ -4,6 +4,7 @@ date: 2014-02-14 14:37 UTC
 location: Gulla's House
 category: iceland
 hero: wall-feed
+heroType: image
 caption: Painting @ Kitchen Wall
 captionInvert: 1
 ---

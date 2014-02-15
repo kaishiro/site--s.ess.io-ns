@@ -4,6 +4,7 @@ date: 2014-02-11 22:14 UTC
 location: Tiu Dropar
 category: iceland
 hero: laptop-roma
+heroType: image
 caption: Slinging Code @ Cafe Roma
 captionInvert: 1
 ---

@@ -4,6 +4,7 @@ date: 2014-02-12 8:46 UTC
 location: Tiu Dropar
 category: iceland
 hero: esja
+heroType: image
 caption: Esja @ Shore Walk
 captionInvert: 1
 ---

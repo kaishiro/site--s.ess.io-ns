@@ -4,6 +4,7 @@ date: 2014-02-13 18:10 UTC
 location: Bravo!
 category: iceland
 hero: savior
+heroType: image
 caption: Jesus @ Church of Hallgrimur
 captionInvert: 1
 ---

@@ -4,6 +4,7 @@ date: 2014-02-12 19:17 UTC
 location: Tiu Dropar
 category: iceland
 hero: bego-sketch
+heroType: image
 caption: Bego's Scribbles @ Tiu Dropar
 captionInvert: 1
 ---

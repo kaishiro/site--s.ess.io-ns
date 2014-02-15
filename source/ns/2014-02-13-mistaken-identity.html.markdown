@@ -4,6 +4,7 @@ date: 2014-02-13 13:48 UTC
 location: Church of Hallgrimnur
 category: iceland
 hero: eyes-up
+heroType: image
 caption: Me @ Outside
 captionInvert: 1
 ---

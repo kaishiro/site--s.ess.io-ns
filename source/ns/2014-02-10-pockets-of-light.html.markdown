@@ -4,6 +4,7 @@ date: 2014-02-10 13:49 UTC
 location: Gulla's House
 category: iceland
 hero: plane-route
+heroType: image
 caption: Seatback LCD @ Icelandair
 captionInvert: 1
 ---

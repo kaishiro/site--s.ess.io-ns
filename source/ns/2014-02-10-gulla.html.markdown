@@ -4,6 +4,7 @@ date: 2014-02-10 23:12 UTC
 location: Gulla's House
 category: iceland
 hero: reykjavik-map
+heroType: image
 caption: Gulla's House @ Google Maps
 captionInvert: 0
 ---
