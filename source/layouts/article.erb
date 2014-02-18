@@ -12,21 +12,48 @@
   
   <body class="<%= page_classes %>">
     <header class="header">
-      <h1>s.ess.io/ns</h1>
+      <h1 class="logo">s<em>.</em>ess<em>.</em>io<em>/</em>ns</h1>
     </header>
     <main class="main">
       <article class="article">
-        <header class="article__header">
-          <%= current_article.title %>
-        </header>
-        <div class="article__content">
-          <%= yield %>
-        </div>
-        <footer class="article__footer">
-        </footer>
+          <header class="article__header">
+            <h2 class="article__title"></h2>
+          </header>
+          <div class="article__content">
+            <figure class="article__hero hero">
+            <% if current_article.data.heroType == "image" %>
+              <img class="hero__image" src="/images/<%= current_article.data.category %>/hero/<%= current_article.data.hero %>.jpg" />
+              <figcaption class="hero__caption<% if current_article.data.captionInvert == 1 %> hero__caption--inverted<% end %>"><%= current_article.data.caption %></figcaption>
+            <% end %>   
+            <% if current_article.data.heroType == "video" %>
+              <div class='embed-container'><iframe src='http://player.vimeo.com/video/<%= current_article.data.hero %>?title=0&amp;byline=0&amp;portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+            <% end %>   
+            </figure>
+            <div class="article__meta">
+              <div class="article__location"><%= current_article.data.location %></div>
+              <div class="article__timestamp">
+                <%= current_article.date.strftime('%A, %B %d') %><br />
+                <%= current_article.date.strftime('%l:%M %p') %>
+              </div>
+            </div>
+            <div class="article__body">
+              <%= yield %>
+            </div>
+          </div>
+          <footer class="article__footer">
+          </footer>
       </article>
     </main>
     <footer class="footer">
     </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48057019-1', 'ess.io');
+      ga('send', 'pageview');
+    </script> 
   </body>
 </html>
