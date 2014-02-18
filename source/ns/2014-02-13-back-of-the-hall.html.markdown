@@ -9,9 +9,9 @@ caption: Jesus @ Church of Hallgrimur
 captionInvert: 1
 ---
 
-<figure>
-  <img src="/images/iceland/inline/birna.jpg" />
-  <figcaption>Birna</figcaption>
+<figure class="thumbnail">
+  <img class="thumbnail__image" src="/images/iceland/inline/birna.jpg" />
+  <figcaption class="thumbnail__caption">Birna</figcaption>
 </figure>
 
 This is Jesus.  For those of you looking, he lives in the back corner of the Church of Hallgrimur.  According to Birna, a local record-keeper at the church, for a long while Jesus was on his way out.
