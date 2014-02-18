@@ -1,5 +1,5 @@
-$width-tablet:em(750);
-$width-desktop:em(750);
+$width-tablet:em(760);
+$width-desktop:em(760);
 $max-width:$width-desktop;
 
 $mobile: new-breakpoint(max-width $width-tablet 12);
