@@ -35,7 +35,7 @@
                 <figcaption class="hero__caption<% if article.data.captionInvert == 1 %> hero__caption--inverted<% end %>"><%= article.data.caption %></figcaption>
               <% end %>   
               <% if article.data.heroType == "video" %>
-                <iframe class="hero__video" src="//player.vimeo.com/video/<%= article.data.hero %>?title=0&amp;byline=0&amp;portrait=0" width="740" height="416" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <div class='embed-container'><iframe src='http://player.vimeo.com/video/<%= article.data.hero %>?title=0&amp;byline=0&amp;portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
               <% end %>   
               </figure>
               <div class="article__meta">
