@@ -1,5 +1,5 @@
 ---
-title: This Is Sonar
+title: Sonar
 date: 2014-02-15 14:14 UTC
 location: Somewhere Along Route 1
 category: iceland
