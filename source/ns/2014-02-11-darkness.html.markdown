@@ -8,9 +8,9 @@ heroType: image
 caption: Reykjavik Morning @ 9:22AM
 ---
 
-<figure>
-  <img src="/images/iceland/inline/sun-apex.jpg" />
-  <figcaption>"High Noon"</figcaption>
+<figure class="thumbnail">
+  <img class="thumbnail__image" src="/images/iceland/inline/sun-apex.jpg" />
+  <figcaption class="thumbnail__caption">"High Noon"</figcaption>
 </figure>
 
 The darkness here is stifling - or, at least, it would be - if that was the sort of thing to bother you.
